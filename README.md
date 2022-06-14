@@ -5,7 +5,7 @@ Hello!
 This is a projects i like so much and it represents a page of an online-cinema (which is unreal ofc).
 
 Pure HTML, CSS, and a couple of JS-functions like current time/date, blinking dots between them, 
-and try to click on buttoms to watch trailers!! (it opens modal windows with youtube links)
+and try to click on buttoms to watch trailers!! (it opens modal windows with youtube videos)
 
 Hope you like this, thanks!!! 
 
