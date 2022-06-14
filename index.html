@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MOVIES</title>
+</head>
+
+<body>
+    <div class="grid-init grid">
+        <header class="header">
+            <div class="header__wrap">
+                <a href="" class="header__logo">MOVEA</a>
+            <nav class="header__nav">
+                <a href="#">Movies</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Animations</a>
+                <a href="#">Plans</a>
+            </nav> 
+            <div class="header__find">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="header__date">
+                <div class="header__hour"></div>
+                <div class="header__days"></div>
+            </div>
+            <a class="header__personal" href="#">
+                <img src="./img/avatar.png" alt="avatar">
+            </a>
+            </div>
+        </header>
+        <aside class="aside box-init">
+            <div class="aside__wrap">
+                <div class="aside__top">
+                    <div class="aside__title">
+                        <div class="aside__header">New trailers</div>
+                        <div class="aside__sort">
+                            <div class="aside__sort-text">Sort by</div>
+                            <div class="aside__sort-select">
+                                <span>Today</span>
+                                <div class="aside__sort-img">
+                                    <img src="/img/selector_arrow_up.svg" alt="arrow up">
+                                    <img src="/img/selector_arrow_down.svg" alt="arrow down">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aside__item-batman">
+                        <div class="aside__views">Views 4.5k</div>
+                        <div class="aside__footer">
+                            <div class="aside__item-name">Batman 2022</div>
+                            <div class="aside__item-date">Dec 2022</div>
+                        </div>
+                        <div class="button-play__wrap" id="batman">
+                            <div class="button-play" id="batman"></div>
+                        </div>
+                    </div>
+                    <div class="aside__item-thor">
+                        <div class="aside__views">Views 2.5k</div>
+                        <div class="aside__footer">
+                            <div class="aside__item-name">Thor: Love and Thunder</div>
+                            <div class="aside__item-date">Jun 2022</div>
+                        </div>
+                        <div class="button-play__wrap" id="thor">
+                            <div class="button-play" id="thor"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aside_bottom">
+                        <div class="aside__favourite">
+                            <div class="aside__favourite-text">Favourite genres</div>
+                            <div class="aside__genre-items">
+                                <div class="aside_genre purple">Action</div>
+                                <div class="aside_genre orange">Western</div>
+                                <div class="aside_genre purple">Adventures</div>
+                                <div class="aside_genre orange">Drama</div>
+                                <div class="aside_genre green">Comedy</div>
+                            </div>
+                        </div>
+                        <div class="aside_footer-bottom">
+                            <div class="aside__add">
+                                <div class="aside__add-round">+</div>
+                                <span>Add your favourite genres</span>
+                            </div>
+                            <div class="aside__genre-items">
+                                <div class="aside_genre grey">Drama</div>
+                                <div class="aside_genre grey">Comedy</div>
+                                <div class="aside_genre grey">Comedy</div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </aside>
+        <main class="main">
+            <section class="main-display">
+                <div class="main-display__trailer">
+                    <div class="main-display__views">Views 77k</div>
+                    <div class="main-display__name">
+                        <h1 class="main-display__header">Spider-Man: No Way Home</h1>
+                        <div class="main-display__date">Feb 2021</div>
+                    </div>
+                    <div class="button-play__wrap" id="spider">
+                        <div class="button-play" id="spider"></div>
+                    </div>
+                </div>
+                <div class="main-display__trending">
+                    <div class="title">
+                        <div class="title__left"> 
+                            <h2 class="title__main">Continue Watching</h2>
+                            <div class="title__count"> 4 Movies</div>
+                        </div>
+                        <div class="title__right">
+                            <span>All movies</span>
+                            <img src="img/arrov_title.svg" alt="arrow">
+                        </div>
+                    </div>
+                    <div class="trending">
+                        <div class="trending__item">
+                            <div class="trending__plash">
+                                <span>#1 Trending </span>
+                                <img src="img/icon_fire.svg" alt="fire">
+                        </div>
+                        <div class="trending__footer">
+                            <div class="trending__footer-left"> 
+                                <div class="button-play__wrap small" id="spider">
+                                    <div class="button-play" id="spider"></div>
+                                </div>
+                                <div class="trending__title">
+                                    <h3 class="trending__header">Spider-Man: No Way Home</h3>
+                                    <div class="trending__date">Feb 2021</div>
+                                </div>
+                            </div>
+                            <div class="trending__time">02:30:00</div>
+                        </div>
+                    </div>
+                        <div class="trending__item">
+                        <div class="trending__footer">
+                            <div class="trending__footer-left"> 
+                                <div class="button-play__wrap small" id="adam">
+                                    <div class="button-play" id="adam"></div>
+                                </div>
+                                <div class="trending__title">
+                                    <h3 class="trending__header">Black Adam</h3>
+                                    <div class="trending__date">Oct 2022</div>
+                                </div>
+                            </div>
+                            <div class="trending__time">01:50:00</div>
+                        </div>
+                    </div> 
+                    </div>  
+                </div>                        
+                    <div class="main-display__trending">
+                        <div class="title">
+                            <div class="title__left"> 
+                                <h2 class="title__main">Popular movies 2022</h2>
+                            </div>
+                            <div class="title__right">
+                                <span>All movies</span>
+                                <img src="img/arrov_title.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="popular">
+                            <div class="popular__item">
+                                <div class="popular__footer">
+                                    <div class="popular__footer-left">
+                                        <div class="button-play__wrap small-plus" id="mission">
+                                            <div class="button-play" id="mission"></div>
+                                        </div>
+                                        <div class="popular__title">
+                                            <h3 class="popular__header">Mission: Impossible - Dead Reckoning</h3>
+                                            <div class="popular__date">Jun 2022</div>
+                                        </div>
+                                </div>
+                                    <div class="popular__rating">
+                                        <div class="popular__img">
+                                            <img src="./img/icon_star.svg" alt="star">
+                                        </div>
+                                        <span>5,0</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="popular__item">
+                                <div class="popular__footer">
+                                    <div class="popular__footer-left">
+                                        <div class="button-play__wrap small-plus"  id="spider">
+                                            <div class="button-play" id="spider"></div>
+                                        </div>
+                                        <div class="popular__title">
+                                            <h3 class="popular__header"> Spider-Man: No Way Home</h3>
+                                            <div class="popular__date">Feb 2021</div>
+                                        </div>
+                                </div>
+                                    <div class="popular__rating">
+                                        <div class="popular__img">
+                                            <img src="./img/icon_star.svg" alt="star">
+                                        </div>
+                                        <span>4,7</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popular__item">
+                                <div class="popular__footer">
+                                    <div class="popular__footer-left">
+                                        <div class="button-play__wrap small-plus" id="school">
+                                            <div class="button-play" id="school"></div>
+                                        </div>
+                                        <div class="popular__title">
+                                            <h3 class="popular__header"> The School For Good And Evil</h3>
+                                            <div class="popular__date">Sept 2022</div>
+                                        </div>
+                                </div>
+                                    <div class="popular__rating">
+                                        <div class="popular__img">
+                                            <img src="./img/icon_star.svg" alt="star">
+                                        </div>
+                                        <span>4,1</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>           
+                    </div>
+            </section>
+        </main>
+    </div>
+    <div class="modal" id="batmanVid">
+        <div class="modal__inner">
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/mqqft2x_Aa4" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    <div class="modal" id="thorVid">
+        <div class="modal__inner">
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/kzGCUB4DTfA"
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    <div class="modal" id="spiderVid">
+        <div class="modal__inner">
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/JfVOs4VSpmA" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    <div class="modal" id="adamVid">
+        <div class="modal__inner">
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/wB_swg6IHug" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+             </iframe>
+        </div>
+    </div>
+    <div class="modal" id="missionVid">
+        <div class="modal__inner">
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/2m1drlOZSDw" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    <div class="modal" id="schoolVid">
+        <div class="modal__inner">
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/uhCPkEIwJ-k" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+             allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
+
+
