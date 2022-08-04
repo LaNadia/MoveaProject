@@ -7,6 +7,13 @@ This is a projects i like so much and it represents a page of an online-cinema (
 Pure HTML, CSS, and a couple of JS-functions like current time/date, blinking dots between them, 
 and try to click on buttoms to watch trailers!! (it opens modal windows with youtube videos)
 
+# Link to the site:
+https://moveasite.netlify.app/
+
+-
+-
+-
+
 Hope you like this, thanks!!! 
 
 
